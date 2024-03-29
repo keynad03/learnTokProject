@@ -1,123 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="flexbox.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="flexbox.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
     <title>flexbox</title>
-</head>
-<body>
-
-<div id="global">
-    <div id="header">
+  </head>
+  <body>
+    <div id="global">
+      <div id="header">
         <nav>
-            <div style="display: flex; justify-content: flex-start;">
-                <p style="font-size: 30px;">logo<p>  
-                    <div style="margin-top: 12px; position: relative; left: 12px; top: 12px;color: white">
-                        <input type="text" placeholder="que voulez vous apprendre" style="width: 300px; border-radius: 12px; height: 30px; background-color: blue;"/>
-                    </div>
+          <div style="display: flex; justify-content: flex-start">
+            <p style="font-size: 30px">logo</p>
+            <p></p>
+            <div style="margin-top: 12px; position: relative; left: 12px; top: 12px; color: white">
+              <input
+                type="text"
+                placeholder="que voulez vous apprendre"
+                style="width: 300px; border-radius: 12px; height: 30px; background-color: blue"
+              />
             </div>
-            <div style="display: flex; justify-content: flex-end; position: relative; bottom: 60px; right: 30px;">
-                <div>
-                  <button>S'inscrire</button>
-                </div> 
-                <div>
-                    <i class="fa-solid fa-house"></i>
-                </div>
-                <div>
-                    <i class="fa-solid fa-house"></i>
-                </div>
-
+          </div>
+          <div style="display: flex; justify-content: flex-end; position: relative; bottom: 60px; right: 30px">
+            <div>
+              <button>S'inscrire</button>
             </div>
+            <div>
+              <i class="fa-solid fa-house"></i>
+            </div>
+            <div>
+              <i class="fa-solid fa-house"></i>
+            </div>
+          </div>
         </nav>
-    </div>
-    <div id="contenu"> 
+      </div>
+      <div id="contenu">
         <div>
-            <div style="color: white;">  
-                <p style="font-size: 30px; text-align: center; background-color:blue;" >learn tok<p>  
-            </div>
+          <div style="color: white">
+            <p style="font-size: 30px; text-align: center; background-color: blue">learn tok</p>
+            <p></p>
+          </div>
         </div>
         <div id="left">
-            <div style="display: flex; margin-top: 12px; margin-left: 12px;">
-                <i class="fa-solid fa-house"></i>
-                <p style="margin-top: 0px; margin-left: 12px;">Acceuil</p>
+          <div style="display: flex; margin-top: 12px; margin-left: 12px">
+            <i class="fa-solid fa-house"></i>
+            <p style="margin-top: 0px; margin-left: 12px">Acceuil</p>
+          </div>
+          <div>
+            <div style="display: flex; margin-top: 12px; margin-left: 12px">
+              <i class="fa-solid fa-globe"></i>
+              <p style="margin-top: 0px; margin-left: 12px">Explorer</p>
             </div>
-        <div>
-            <div style="display: flex; margin-top: 12px; margin-left: 12px;">
-                <i class="fa-solid fa-globe"></i>
-                <p style="margin-top: 0px; margin-left: 12px;">Explorer</p>
+          </div>
+          <div>
+            <div style="display: flex; margin-top: 12px; margin-left: 12px">
+              <i class="fa-solid fa-square-plus"></i>
+              <p style="margin-top: 0px; margin-left: 12px">Créer</p>
             </div>
-        </div>
-        <div>
-            <div style="display: flex; margin-top: 12px; margin-left: 12px;">
-                <i class="fa-solid fa-square-plus"></i>
-                <p style="margin-top: 0px; margin-left: 12px;">Créer</p>
+          </div>
+          <div>
+            <div style="display: flex; margin-top: 12px; margin-left: 12px">
+              <i class="fa-solid fa-list"></i>
+              <p style="margin-top: 0px; margin-left: 12px">Mes cours</p>
             </div>
-        </div>
-        <div>
-            <div style="display: flex; margin-top: 12px; margin-left: 12px;">
-                <i class="fa-solid fa-list"></i>
-                <p style="margin-top: 0px; margin-left: 12px;">Mes cours</p>
-            </div>
-        </div>
+          </div>
         </div>
         <div id="right"></div>
         <p>Bonjour!!<b>[nom d’utilisateur]</b> , bienvenue sur Learn Tok </p>
-        <p>Découvrez des cours et des tutoriels adaptés à tous niveaux, débutants et
-            confirmés et quel que soit votre objectif, Learn Tok a le cours ou le tutoriel qu’il 
-            vous faut.</p>
+        <p>
+          Découvrez des cours et des tutoriels adaptés à tous niveaux, débutants et confirmés et quel que soit votre
+          objectif, Learn Tok a le cours ou le tutoriel qu’il vous faut.
+        </p>
         <h3>Pour vous</h3>
         <div class="container">
-            <div class="vidéo">
-                <video controls="controls">
-                 <source src="video/videoplayback.mp4">
-                </video>
-                <p> Apprenez la direction flexible
-                    CSS flexbox #codage #fyp</p>
-                </div>
-                <div class="vidéo">
-                    <video controls="controls">
-                     <source src="video/5 exemples de motion design.mp4">
-                    </video>
-                    <p>êtes-vous artiste? découvrez quels 
-                        astuces en design!
-                        #art #design #peintures</p>
-                    </div>
-                    <div class="vidéo">
-                        <video controls="controls">
-                         <source src="video/💡 Un ALGORITHME c'est QUOI _.mp4">
-                        </video>
-                        <p>Cours sur les algorithmes pour vous aider à 
-                            devenir  un  meilleur dev...#cours #en ligne #Algo</p>
-                        </div>
-                    </div>
-                    <h3>Plus visionnnées</h3>
-<div class="container">
-    <div class="vidéo">
-        <video controls="controls">
-         <source src="video/COMMENT INTEGRER UNE VIDEO EN HTML (TUTO FR).mp4">
-        </video>
-        <p> Apprenez la direction flexible
-            CSS flexbox #codage #fyp</p>
-        </div>
-        <div class="vidéo">
-            <video controls="controls">
-             <source src="video/5 exemples de motion design.mp4">
+          <div class="vidéo">
+            <video controls="controls" style="width: 340px">
+              <source src="video/videoplayback.mp4" />
             </video>
-            <p> Apprenez la direction flexible
-                CSS flexbox #codage #fyp</p>
-            </div>
-            <div class="vidéo">
-                <video controls="controls">
-                 <source src="video/videoplayback.mp4">
-                </video>
-                <p> Apprenez la direction flexible
-                    CSS flexbox #codage #fyp</p>
-                </div>
-            </div>
+            <p>Apprenez la direction flexible CSS flexbox #codage #fyp</p>
+          </div>
+          <div class="vidéo">
+            <video controls="controls" style="width: 340px">
+              <source src="video/5 exemples de motion design.mp4" />
+            </video>
+            <p>êtes-vous artiste? découvrez quels astuces en design! #art #design #peintures</p>
+          </div>
+          <div class="vidéo">
+            <video controls="controls" style="width: 340px">
+              <source src="video/💡 Un ALGORITHME c'est QUOI _.mp4" />
+            </video>
+            <p>Cours sur les algorithmes pour vous aider à devenir un meilleur dev...#cours #en ligne #Algo</p>
+          </div>
+        </div>
+        <h3>Plus visionnnées</h3>
+        <div class="container">
+          <div class="vidéo">
+            <video controls="controls" style="width: 340px">
+              <source src="video/COMMENT INTEGRER UNE VIDEO EN HTML (TUTO FR).mp4" />
+            </video>
+            <p>Apprenez la direction flexible CSS flexbox #codage #fyp</p>
+          </div>
+          <div class="vidéo">
+            <video controls="controls" style="width: 340px">
+              <source src="video/5 exemples de motion design.mp4" />
+            </video>
+            <p>Apprenez la direction flexible CSS flexbox #codage #fyp</p>
+          </div>
+          <div class="vidéo">
+            <video controls="controls" style="width: 340px">
+              <source src="video/videoplayback.mp4" />
+            </video>
+            <p>Apprenez la direction flexible CSS flexbox #codage #fyp</p>
+          </div>
+        </div>
+      </div>
+      <div id="footer">footer</div>
     </div>
-    <div id="footer">footer</div>
-</div>        
-</body>
+  </body>
 </html>
