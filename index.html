@@ -3,9 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="flexbox.css" />
+    <link rel="stylesheet" href="styles/flexbox.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
-    <title>flexbox</title>
+    <title>LEARNTOK</title>
   </head>
   <body>
     <div id="global">
@@ -14,17 +14,13 @@
           <div style="display: flex; justify-content: flex-start">
             <p style="font-size: 30px">logo</p>
             <p></p>
-            <div style="margin-top: 12px; position: relative; left: 12px; top: 12px; color: white">
-              <input
-                type="text"
-                placeholder="que voulez vous apprendre"
-                style="width: 300px; border-radius: 12px; height: 30px; background-color: blue"
-              />
+            <div class="nav">
+              <input type="text" placeholder="que voulez vous apprendre" class="input" />
             </div>
           </div>
           <div style="display: flex; justify-content: flex-end; position: relative; bottom: 60px; right: 30px">
-            <div>
-              <button>S'inscrire</button>
+            <div style="margin-right: 67px">
+              <button type="submit" class="inscrire">S'inscrire</button>
             </div>
             <div>
               <i class="fa-solid fa-house"></i>
@@ -36,10 +32,9 @@
         </nav>
       </div>
       <div id="contenu">
-        <div>
-          <div style="color: white">
-            <p style="font-size: 30px; text-align: center; background-color: blue">learn tok</p>
-            <p></p>
+        <div class="acceuil">
+          <div style="color: white; position: relative; top: 27px">
+            <p style="margin-top: 12px">learn tok</p>
           </div>
         </div>
         <div id="left">
@@ -56,7 +51,9 @@
           <div>
             <div style="display: flex; margin-top: 12px; margin-left: 12px">
               <i class="fa-solid fa-square-plus"></i>
-              <p style="margin-top: 0px; margin-left: 12px">Créer</p>
+              <a href="creationContenu.html">
+                <p style="margin-top: 0px; margin-left: 12px">Créer</p>
+              </a>
             </div>
           </div>
           <div>

@@ -14,7 +14,6 @@
 } */
 
 #header {
-  border: 1px solid #000000;
   background-color: white;
   height: 70px;
   margin: 2px;
@@ -40,10 +39,10 @@
   min-height: 1000px;
 }
 #left {
-  border: 1px solid #0000004f;
+  border-right: 1px solid #0000004f;
   background-color: #ffffff;
   width: 200px;
-  min-height: 1000px;
+  min-height: 750px;
   float: left;
 }
 #right {
@@ -51,13 +50,13 @@
   background-color: #ffffff;
   margin-left: 230px;
 }
-#footer {
+/* #footer {
   border: 1px solid #ffffff;
   bottom: 2px;
   left: 2px;
   right: 2px;
   text-align: center;
-}
+} */
 #vidéo {
   align-items: center;
   background-color: #0931be;
@@ -73,4 +72,41 @@
   background-color: #0931be;
   border-radius: 3%;
   color: #ffffff;
+}
+.inscrire {
+  background-color: blue;
+  width: 130px;
+  height: 35px;
+  border-radius: 4% solid blue;
+  color: white;
+  margin-bottom: 20px;
+}
+.input {
+  width: 300px;
+  border-radius: 12px;
+  height: 30px;
+  background-color: blue;
+}
+.nav {
+  margin-top: 12px;
+  position: relative;
+  left: 12px;
+  top: 12px;
+  color: white;
+}
+.acceuil {
+  font-size: 30px;
+  text-align: center;
+  background-color: blue;
+  height: 100px;
+  margin-top: 12px;
+}
+.learn {
+  font-size: 30px;
+  text-align: center;
+  background-color: blue;
+}
+img {
+  width: 1100px;
+  height: 720px;
 }

@@ -3,45 +3,35 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="flexbox.css" />
+    <link rel="stylesheet" href="styles/flexbox.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
     <title>flexbox</title>
   </head>
   <body>
     <div id="global">
-      <div id="header">
-        <nav>
-          <div style="display: flex; justify-content: flex-start">
-            <p style="font-size: 30px">logo</p>
-            <p></p>
-            <div style="margin-top: 12px; position: relative; left: 12px; top: 12px; color: white">
-              <input
-                type="text"
-                placeholder="que voulez vous apprendre"
-                style="width: 300px; border-radius: 12px; height: 30px; background-color: blue"
-              />
-            </div>
+        <div id="header">
+            <nav>
+              <div style="display: flex; justify-content: flex-start">
+                <p style="font-size: 30px">logo</p>
+                <p></p>
+                <div class="nav">
+                  <input type="text" placeholder="que voulez vous apprendre" class="input" />
+                </div>
+              </div>
+              <div style="display: flex; justify-content: flex-end; position: relative; bottom: 60px; right: 30px">
+                <div style="margin-right: 67px">
+                  <button type="submit" class="inscrire">S'inscrire</button>
+                </div>
+                <div>
+                  <i class="fa-solid fa-house"></i>
+                </div>
+                <div>
+                  <i class="fa-solid fa-house"></i>
+                </div>
+              </div>
+            </nav>
           </div>
-          <div style="display: flex; justify-content: flex-end; position: relative; bottom: 60px; right: 30px">
-            <div>
-              <button>S'inscrire</button>
-            </div>
-            <div>
-              <i class="fa-solid fa-house"></i>
-            </div>
-            <div>
-              <i class="fa-solid fa-house"></i>
-            </div>
-          </div>
-        </nav>
-      </div>
       <div id="contenu">
-        <div>
-          <div style="color: white">
-            <p style="font-size: 30px; text-align: center; background-color: blue">learn tok</p>
-            <p></p>
-          </div>
-        </div>
         <div id="left">
           <div style="display: flex; margin-top: 12px; margin-left: 12px">
             <i class="fa-solid fa-house"></i>
@@ -67,7 +57,6 @@
           </div>
         </div>
         <div id="right">
-         
            <img src="images/imagecrea.png"/>
       </div>
       <div id="footer">coryright2024</div>
