@@ -2,7 +2,7 @@
   font-family: poppins;
 }
 #global {
-  background-color: red;
+  background-color: white;
   width: auto;
 }
 /* #description{
@@ -49,8 +49,7 @@
 #right {
   border: solid #ffffff;
   background-color: #ffffff;
-  /* margin-left: 1100px; */
-  /* overflow: auto; */
+  margin-left: 230px;
 }
 #footer {
   border: 1px solid #ffffff;
@@ -58,11 +57,8 @@
   left: 2px;
   right: 2px;
   text-align: center;
-  /* position: fixed; */
 }
 #vidéo {
-  /* width: 273px;
-  height: 227px; */
   align-items: center;
   background-color: #0931be;
 }
